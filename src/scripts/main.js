@@ -23,8 +23,3 @@ list.onclick = (e) => {
 
   childContainer.hidden = !childContainer.hidden;
 };
-
-document.body.onclick = (e) => {
-  if (e.target.tagName !== 'SPAN') {
-  }
-};
